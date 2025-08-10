@@ -1,0 +1,21 @@
+id,ingredient_name,popularity_score,growth_rate,category,region,month,year
+1,Matcha,94,21.2,Beverages,Asia Pacific,6,2024
+2,Matcha,89,16.8,Snacks,North America,7,2024
+3,Acai,92,18.4,Beverages,Latin America,6,2024
+4,Acai,86,14.1,Snacks,North America,8,2024
+5,Turmeric,89,17.3,Beverages,North America,6,2024
+6,Turmeric,84,13.9,Dairy,Europe,7,2024
+7,Spirulina,87,16.2,Snacks,Europe,6,2024
+8,Spirulina,81,12.8,Beverages,North America,9,2024
+9,Quinoa,85,14.1,Cereals,Latin America,6,2024
+10,Quinoa,79,11.3,Snacks,North America,7,2024
+11,Green Tea,83,12.8,Beverages,Asia Pacific,6,2024
+12,Green Tea,78,9.5,Dairy,Global,8,2024
+13,Coconut,82,15.6,Snacks,Asia Pacific,6,2024
+14,Coconut,77,12.2,Beverages,Latin America,7,2024
+15,Ginger,81,11.1,Beverages,Asia Pacific,6,2024
+16,Ginger,76,7.8,Confectionery,Global,8,2024
+17,Oat Milk,79,10.4,Dairy,North America,6,2024
+18,Oat Milk,73,6.9,Beverages,Europe,7,2024
+19,Dark Chocolate,77,8.8,Confectionery,Europe,6,2024
+20,Dark Chocolate,72,5.5,Snacks,Global,9,2024

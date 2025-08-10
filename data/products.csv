@@ -1,0 +1,23 @@
+id,name,category,market_score,status,created_date,target_demographics,region,ingredients,flavor_profile,Unnamed: 10
+1,Premium Matcha Latte,Beverages,97.0,Active,1/15/2024,26-35,Asia Pacific,"Matcha,Green Tea,Vanilla",Herbal,Sweet
+2,Organic Turmeric Latte,Beverages,94.0,Active,2/10/2024,18-25,North America,"Turmeric,Ginger,Coconut Milk",Spicy,Earthy
+3,Super Acai Smoothie,Beverages,93.0,Active,1/28/2024,18-25,Latin America,"Acai,Berries,Banana",Fruity,Sweet
+4,Golden Spirulina Bar,Snacks,88.0,Active,3/5/2024,26-35,Europe,"Spirulina,Dates,Almonds",Earthy,Nutty
+5,Fresh Quinoa Bites,Snacks,87.0,Active,2/20/2024,26-35,North America,"Quinoa,Almonds,Dates",Nutty,Mild
+6,Pure Green Tea Yogurt,Dairy,91.0,Active,1/12/2024,18-25,Asia Pacific,"Green Tea,Yogurt,Honey",Herbal,Fresh
+7,Natural Coconut Ice Cream,Dairy,89.0,Active,2/18/2024,18-25,Asia Pacific,"Coconut,Vanilla,Honey",Sweet,Tropical
+8,Power Ginger Tea,Beverages,85.0,Active,3/1/2024,35-45,Asia Pacific,"Ginger,Green Tea,Vanilla",Spicy,Warm
+9,Organic Oat Milk,Dairy,86.0,Active,1/25/2024,26-35,North America,"Oat Milk,Vanilla,Honey",Sweet,Mild
+10,Artisan Dark Chocolate,Confectionery,84.0,Active,2/5/2024,25-35,Europe,"Dark Chocolate,Vanilla,Honey",Bitter,Rich
+11,Premium Chickpeas Chips,Snacks,82.0,Active,3/10/2024,26-35,Europe,"Chickpeas,Sea Salt,Herbs",Savory,Nutty
+12,Golden Hibiscus Tea,Beverages,79.0,Active,1/30/2024,35-45,Africa,"Hibiscus,Ginger,Lemon",Floral,Spicy
+13,Fresh Vanilla Cookies,Confectionery,78.0,Active,2/25/2024,18-25,North America,"Vanilla,Honey,Sea Salt",Sweet,Mild
+14,Pure Honey Granola,Cereals,77.0,Active,3/15/2024,26-35,Europe,"Honey,Oats,Almonds",Sweet,Mild
+15,Natural Sea Salt Crackers,Snacks,76.0,Active,1/20/2024,36-45,North America,"Sea Salt,Oats,Vanilla",Sweet,Mild
+16,Organic Almonds Bowl,Cereals,75.0,Active,2/28/2024,26-35,North America,"Almonds,Honey,Sea Salt",Sweet,Mild
+17,Premium Coconut Water,Beverages,83.0,Active,3/8/2024,18-25,Asia Pacific,"Coconut Water,Vanilla,Honey",Sweet,Tropical
+18,Super Maple Syrup Oats,Cereals,74.0,Active,1/18/2024,26-35,North America,"Maple Syrup,Oats,Vanilla",Sweet,Mild
+19,Fresh Matcha Chips,Snacks,92.0,Active,2/12/2024,26-35,Asia Pacific,"Matcha,Green Tea,Vanilla",Herbal,Sweet
+20,Golden Turmeric Yogurt,Dairy,93.0,Active,1/8/2024,18-25,North America,"Turmeric,Ginger,Coconut Milk",Spicy,Earthy
+21,Test Mango Smoothie,Beverages,45.82,Active,08/10/2025,18-25,Asia Pacific,"['Mango', 'Green Tea', 'Vanilla']","Fruity,Sweet",
+22,Iced Coconut Latte,Beverages,50.0,Active,08/10/2025,18-25,North America,"['Coconut Milk', 'Coffee', 'Vanilla']",Sweet,

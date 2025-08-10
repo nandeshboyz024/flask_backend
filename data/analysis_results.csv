@@ -1,0 +1,21 @@
+analysis_id,product_name,category,overall_score,market_demand,ingredient_trends,competition_level,innovation_factor,recommendation,risk_factor
+analysis_001,Premium Matcha Shot,Beverages,91,94,92,78,89,Strong market potential with trending ingredients,Supply chain volatility for key ingredients
+analysis_002,Organic Acai Bar,Snacks,89,91,89,82,86,Excellent alignment with consumer health trends,High competition in segment
+analysis_003,Super Turmeric Smoothie,Beverages,87,89,87,85,84,High demand in target demographic,Premium pricing concerns
+analysis_004,Golden Spirulina Chips,Snacks,84,86,84,88,81,Strong regional preference match,Saturated market with established players
+analysis_005,Fresh Quinoa Bowl,Cereals,82,84,82,83,79,Premium positioning recommended,Texture expectations
+analysis_006,Natural Green Tea Mix,Beverages,85,87,81,79,88,Solid market opportunity with careful positioning,Seasonal availability constraints
+analysis_007,Pure Coconut Bites,Snacks,83,85,80,86,80,Target health-conscious consumers,Price point sensitivity
+analysis_008,Power Ginger Shot,Beverages,81,83,78,81,82,Consider seasonal marketing approach,Consumer acceptance uncertainty
+analysis_009,Artisan Oat Milk Blend,Dairy,86,88,76,84,91,Focus on ingredient benefits messaging,Regional preference variations
+analysis_010,Super Dark Chocolate Bar,Confectionery,84,82,75,87,89,Explore niche market opportunities,High marketing costs for differentiation
+analysis_011,Golden Chickpeas Crackers,Snacks,80,82,74,89,78,Requires significant market education,Taste acceptance barrier
+analysis_012,Organic Hibiscus Tea,Beverages,78,80,73,76,83,Consider reformulation with trending ingredients,Limited market awareness
+analysis_013,Pure Vanilla Cookies,Confectionery,76,78,68,83,79,Focus on cost-effective production,Regulatory considerations for health claims
+analysis_014,Natural Honey Granola,Cereals,77,79,67,85,80,Target specific consumer segments,Shelf life challenges
+analysis_015,Fresh Sea Salt Chips,Snacks,75,77,66,88,77,Emphasize unique value proposition,Color stability issues
+analysis_016,Power Almonds Bowl,Cereals,79,81,65,81,84,Strong health trend alignment,Production scalability
+analysis_017,Artisan Coconut Water,Beverages,81,83,64,79,86,Capitalize on trend,Seasonal limitations
+analysis_018,Premium Maple Syrup Mix,Confectionery,74,76,62,86,76,Health-conscious positioning,Complex supply chain
+analysis_019,Super Matcha Ice Cream,Dairy,88,90,92,81,85,Dairy-free market growth,Seasonal demand variation
+analysis_020,Golden Acai Smoothie,Beverages,86,88,89,83,82,Superfood positioning,High competition in segment
