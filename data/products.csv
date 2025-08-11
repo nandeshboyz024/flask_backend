@@ -21,3 +21,4 @@ id,name,category,market_score,status,created_date,target_demographics,region,ing
 20,Golden Turmeric Yogurt,Dairy,93.0,Active,1/8/2024,18-25,North America,"Turmeric,Ginger,Coconut Milk",Spicy,Earthy
 21,Test Mango Smoothie,Beverages,45.82,Active,08/10/2025,18-25,Asia Pacific,"['Mango', 'Green Tea', 'Vanilla']","Fruity,Sweet",
 22,Iced Coconut Latte,Beverages,50.0,Active,08/10/2025,18-25,North America,"['Coconut Milk', 'Coffee', 'Vanilla']",Sweet,
+23,,Snacks,50.0,,08/11/2025,18-25,North America,[],Sweet,

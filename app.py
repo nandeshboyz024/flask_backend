@@ -4,16 +4,18 @@ from utils.calculations import generate_market_score
 from services.dashboard_service import get_dashboard_metrics
 import pandas as pd
 from datetime import datetime
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route("/api/dashboard/metrics", methods=["GET"])
 def dashboard_metrics():
-    data_in = request.json or {}
-    timeframe = data_in.get("timeframe", "30d")
-    region = data_in.get("region")
+    timeframe = request.args.get("timeframe", "30d")
+    region = request.args.get("region", "Global")
     data = get_dashboard_metrics(timeframe, region)
     return jsonify({"success": True, "data": data})
+
 
 
 @app.route("/api/products", methods=["GET"])
@@ -89,20 +91,34 @@ def get_market_trends():
     return jsonify({"success": True, "count": len(df), "data": df.to_dict(orient="records")})
 
 
-@app.route("/api/analyze-product", methods=["POST"])
-def analyze_product():
-    product_concept = request.json or {}
-    trends_df = load_csv("market_trends.csv")
+@app.route("/api/products-analysis", methods=["GET"])
+def products_analysis():
     analysis_df = load_csv("analysis_results.csv")
-    score = generate_market_score(product_concept.get("ingredients", []), trends_df)
+
+    search = request.args.get("search", "").lower()
+    category = request.args.get("category", "")
+
+    if search:
+        analysis_df = analysis_df[analysis_df['product_name'].str.lower().str.contains(search)]
+    if category:
+        analysis_df = analysis_df[analysis_df['category'] == category]
+
+    products = analysis_df.to_dict(orient="records")
+
+    chart_data = [
+        {"month": "Jan", "product1": 65, "product2": 45, "product3": 70},
+        {"month": "Feb", "product1": 70, "product2": 52, "product3": 75},
+        {"month": "Mar", "product1": 75, "product2": 58, "product3": 80},
+        {"month": "Apr", "product1": 80, "product2": 65, "product3": 85},
+    ]
+
     return jsonify({
         "success": True,
         "data": {
-            "market_score": score,
-            "recommendations": analysis_df.sample(1).reset_index(drop=True).iloc[0].to_dict()
+            "products": products,
+            "chart": chart_data
         }
     })
-
 
 @app.route("/api/competitors", methods=["GET"])
 def get_competitors():
